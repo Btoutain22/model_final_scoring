@@ -58,5 +58,5 @@ def index():
 
 # Si on est dans le "main", on lance l'API
 if __name__=="__main__":
-  app.run()
+  app.run(host='0.0.0.0')
 
